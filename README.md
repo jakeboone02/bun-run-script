@@ -14,7 +14,12 @@ $ bun --bun run script.js
 script.js file
 ```
 
-`bun run script.js` acts like `npm run script.js`, running the "script.js" script defined in [package.json](./package.json):
+```
+$ node script.js
+script.js file
+```
+
+But `bun run script.js` acts like `npm run script.js`, running the "script.js" script defined in [package.json](./package.json):
 
 ```
 $ bun run script.js
