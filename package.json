@@ -1,0 +1,14 @@
+{
+  "name": "bun-run-script",
+  "module": "script.js",
+  "type": "module",
+  "scripts": {
+    "script.js": "echo 'package.json script \"script.js\"'"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
